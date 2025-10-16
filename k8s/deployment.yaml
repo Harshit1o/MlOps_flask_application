@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: ml-flask-app
-        image: ml-flask-app:latest
-        imagePullPolicy: IfNotPresent
+        image: codernocap/ml-flask-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
         resources:
